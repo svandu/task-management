@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class TaskManager {
-    private Map<Integer, List<Task>> userTasks;
+    private final Map<Integer, List<Task>> userTasks;
     
     public TaskManager() {
         this.userTasks = new HashMap<>();   
